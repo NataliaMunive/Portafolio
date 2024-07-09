@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        type="text/css" !important />
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="icon" type="logo" href="img/logo.ico">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <section>
+        <header class="top-navbar">
+            <div class="menu-toggler" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li><a href="#sobre-mi">Sobre mi</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#formacion">Formación</a></li>
+                    <li><a href="#xp">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <!-- Sección de imagen -->
+    <section id="imagen" class="image-section"> </section>
+
+    <!-- Espaciador para que el menú no cubra el contenido -->
+    <div class="spacer"></div>
+
+    <!-- Secciones del contenido -->
+
+    <!--Seccion 1-->
+    <div id="sobre-mi" class="section">
+        <div class="content">
+            <div class="text">
+                <h2>Hola, me llamo Natalia.</h2>
+                <p>Me llamo Natalia Munive, estudio Ingeniería en Sistemas Computacionales en ESCOM, IPN.</p>
+                <p>Tengo un gran interés en el desarrollo de software, especialmente en áreas como ciberseguridad,
+                    desarrollo web, y bases de datos. Me encanta aprender nuevas tecnologías y aplicarlas en proyectos
+                    prácticos.</p>
+                <p>Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+                <div class="personal-info">
+                    <h3>Información Personal</h3>
+                    <div class="info-grid">
+                        <div class="info-label">Nombre</div>
+                        <div class="info-value">Erika Natalia Munive Hernández.</div>
+                        <div class="info-label">Cumpleaños</div>
+                        <div class="info-value">2003.08.14</div>
+                        <div class="info-label">Residencia</div>
+                        <div class="info-value">CDMX</div>
+                        <div class="info-label">Nacionalidad</div>
+                        <div class="info-value">Mexicana</div>
+                    </div>
+                </div>
+                <ul class="social-links">
+                    <li><a href="https://github.com/NataliaMunive" target="_blank">GitHub</a></li>
+                    <li><a href="https://linkedin.com/in/nataliamunive" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <div class="image">
+                <img src="img/yo.png" alt="Imagen de Natalia">
+            </div>
+        </div>
+    </div>
+
+    <!--Seccion 2-->
+    <div id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="card">
+                <img src="img/htlm.png" alt="HTML5">
+                <p>HTML5</p>
+            </div>
+            <div class="card">
+                <img src="img/js_icon.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="card">
+                <img src="img/php_icon.png" alt="PHP">
+                <p>PHP</p>
+            </div>
+            <div class="card">
+                <img src="img/nodejs_icon.png" alt="NodeJS">
+                <p>NodeJS</p>
+            </div>
+            <div class="card">
+                <img src="img/react_icon.png" alt="React">
+                <p>React</p>
+            </div>
+            <div class="card">
+                <img src="img/css_icon.png" alt="CSS">
+                <p>CSS</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Seccion 3-->
+    <div id="hobbies" class="section">
+        <h2>Hobbies</h2>
+        <div class="hobbies-grid">
+            <div class="card">
+                <img src="img/gimnasia_icon.png" alt="Gimnasia acrobática">
+                <p>Gimnasia acrobática</p>
+            </div>
+            <div class="card">
+                <img src="img/videojugo_icon.png" alt="Jugar videojuegos">
+                <p>Jugar videojuegos</p>
+            </div>
+            <div class="card">
+                <img src="img/headphones_icon.png" alt="Oír Música">
+                <p>Oír Música</p>
+            </div>
+            <div class="card">
+                <img src="img/tv_icon.png" alt="Ver Series">
+                <p>Ver Series</p>
+            </div>
+            <div class="card">
+                <img src="img/forkspoon_icon.png" alt="Cocinar">
+                <p>Cocinar</p>
+            </div>
+            <div class="card">
+                <img src="img/dibujo_icon.png" alt="Dibujar">
+                <p>Dibujar</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Seccion 4-->
+    <div id="formacion" class="section">
+        <h2>Formación Académica</h2>
+        <div class="education-grid">
+            <div class="card">
+                <img src="img/cecyt2_icon.png" alt="CECYT 2">
+                <p class="course-title">Técnico en máquinas con Sistemas Automatizados</p>
+                <p>2019-2021</p>
+            </div>
+            <div class="card">
+                <img src="img/escom_icon.png" alt="ESCOM">
+                <p class="course-title">Ingeniería en Sistemas Computacionales</p>
+                <p>2021 - actualidad </p>
+            </div>
+            <div class="card">
+                <img src="img/alura_icon.png" alt="ALURA">
+                <p class="course-title">Especialización Front-End Alura </p>
+                <p>En curso</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Seccion 5-->
+    <div id="xp" class="section">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
+        <!-- Proyecto 1 -->
+        <div class="project-card">
+            <img src="img/proyecto1.gif" alt="Proyecto 1">
+            <div class="project-info">
+                <h3>CRUD DE PANADERIA</h3>
+                <a href="https://github.com/NataliaMunive/CRUD" target="_blank" class="button">Repositorio GitHub</a>
+                <a href="https://nataliamunive.github.io/CRUD/" target="_blank" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="project-card">
+            <img src="img/proyecto2.gif" alt="Proyecto 2">
+            <div class="project-info">
+                <h3>SENSOR DE TEMPERATURA CON ARDUINO</h3>
+                <a href="https://github.com/NataliaMunive/SensorTemperatura" target="_blank" class="button">Repositorio GitHub</a>
+                <a href="https://nataliamunive.github.io/SensorTemperatura/" target="_blank" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="project-card">
+            <img src="img/proyecto3.gif" alt="Proyecto 3">
+            <div class="project-info">
+                <h3>CALCULO DE PROBABILIDADES CON POISSON</h3>
+                <a href="https://github.com/NataliaMunive/CalculoDeProbabilidades" target="_blank" class="button">Repositorio GitHub</a>
+                <a href="https://nataliamunive.github.io/CalculoDeProbabilidades/" target="_blank" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+        <!-- Proyecto 4 -->
+        <div class="project-card">
+            <img src="img/proyecto4.gif" alt="Proyecto 4">
+            <div class="project-info">
+                <h3>ENCRIPTADOR DE TEXTO - ALURA</h3>
+                <a href="https://github.com/NataliaMunive/DecodificadorDeTexto" target="_blank" class="button">Repositorio GitHub</a>
+                <a href="https://nataliamunive.github.io/DecodificadorDeTexto/" target="_blank" class="button">Ver Proyecto</a>
+            </div>
+        </div>
+        </div>
+    </div>
+                
+
+    <!--Seccion 6-->
+    <section class="formcontato" id="contacto">
+        <div class="formcontato__contacto">
+            <div class="formcontato--esquerda">
+                <img class="formcontato__img" src="img/contacto_icon.png">
+            </div>
+            <div class="formcontato__text">
+                <h2 class="formcontato__title">Contacto</h2>
+                <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo
+                    antes posible.</h3>
+                <form class="formcontato__form" action="https://formspree.io/f/mldreypa" method="POST" target="_blank">
+                    <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required>
+                    <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
+                    <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required>
+                    <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
+                        placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>Desarrollado por Natalia Munive | Julio 2024 </p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
